@@ -22,6 +22,9 @@ streamlit.dataframe(my_fruit_list)
 
 # Display the table on the page.
 
+
+streamlit.header("Fruityvice Fruit Advice!")
+
 # new section to display fruityvice api response
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
